@@ -31,3 +31,6 @@ python env_crypto.py decrypt settings.json
 
 Only values associated with the following fields are processed:
 `password`, `key`, `secret`, `api_key`, `client_id`, `client_secret`, `orgId`.
+
+
+$ export graph_dev_env='DAWVwjmvdzlYY9ekQrxY15LWVDD7ROIjsUXBmf6gKv8='
