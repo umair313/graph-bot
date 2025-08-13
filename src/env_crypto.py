@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Utility to encrypt or decrypt sensitive fields in JSON files.
 
-The encryption key must be provided via the ``graph-dev-env`` environment
+The encryption key must be provided via the ``graph_dev_env`` environment
 variable. Keys listed in ``FIELDS`` are encrypted or decrypted recursively
 throughout the JSON structure.
 """
@@ -27,7 +27,7 @@ FIELDS = [
     "orgId",
 ]
 
-ENV_KEY_NAME = "graph-dev-env"
+ENV_KEY_NAME = "graph_dev_env"
 
 
 def _process(data: Any, cipher: "fernet.Fernet", encrypt: bool) -> Any:

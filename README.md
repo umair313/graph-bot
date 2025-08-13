@@ -12,7 +12,7 @@ or decryption is read from the `graph-dev-env` environment variable.
 ### Generate a key
 
 ```
-python env_crypto.py generate-key
+poetry run python -m src.env_crypto generate-key
 ```
 
 ### Encrypt a JSON file
